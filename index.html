@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marmoraria JPAZ - Granitos e Pias</title>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f5f5f5; }
+
+header {
+    background: linear-gradient(135deg, #1f2933, #374151);
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+header h1 { font-size: 2.6rem; }
+header p { margin-top: 0.5rem; font-size: 1.1rem; }
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.card:hover { transform: translateY(-6px); }
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1.4rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    color: #1f2933;
+    margin-bottom: 0.4rem;
+}
+
+.card-desc {
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #16a34a;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover { background: #15803d; }
+
+/* WhatsApp flutuante */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🪨 MARMORARIA JPAZ</h1>
+<p>Granitos • Pias • Acabamentos Premium</p>
+<p>📍 Lagoa Nova | RN</p>
+</header>
+
+<div class="container">
+<div class="gallery">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Granito Preto">
+<div class="card-content">
+<h2 class="card-title">Granito Preto São Gabriel</h2>
+<p class="card-desc">Elegante, moderno e resistente. Ideal para banheiros e cozinhas.</p>
+<div class="price">R$ 450/m²</div>
+<a class="btn" href="https://wa.me/5584994539322?text=Olá,%20quero%20orçamento%20do%20Granito%20Preto%20São%20Gabriel">Pedir orçamento</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598300053654-7cdb5d2d34c5" alt="Granito Branco">
+<div class="card-content">
+<h2 class="card-title">Granito Branco Itaúnas</h2>
+<p class="card-desc">Ambiente claro, sofisticado e fácil de combinar.</p>
+<div class="price">R$ 380/m²</div>
+<a class="btn" href="https://wa.me/5584994539322?text=Olá,%20quero%20orçamento%20do%20Granito%20Branco%20Itaúnas">Pedir orçamento</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea" alt="Granito Verde">
+<div class="card-content">
+<h2 class="card-title">Granito Verde Ubatuba</h2>
+<p class="card-desc">Alta durabilidade e visual sofisticado.</p>
+<div class="price">R$ 390/m²</div>
+<a class="btn" href="https://wa.me/5584994539322?text=Olá,%20quero%20orçamento%20do%20Granito%20Verde%20Ubatuba">Pedir orçamento</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<a class="whatsapp" href="https://wa.me/5584994539322" target="_blank">
+💬 WhatsApp
+</a>
+
+</body>
+</html>
